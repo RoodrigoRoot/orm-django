@@ -1,0 +1,19 @@
+Modelos:
+    Fuente única y definitiva de sus datos.
+    Campos y comportamientos esenciales
+    Asignado a una única tabla en la Base de Datos
+
+    Lo básico:
+        Cada modelos es una clase de Python
+        Cada atributo es un campo en la tabla
+    
+
+Django usa los tipos de clase de campo para determinar si será entero, cadena, binario, etc.
+
+Field Options
+    Cada campo tiene ciertos argumentos en su definición.
+    Por ejemplo:
+        null -> Django va a guardar valores nulos
+        blank -> Permite guardar valores en blanco en la BD 
+        help_text -> Texto de ayuda que aparecerá en otras partes
+        unique -> Permitirá un registro único e irrepetible (crea un index_constraint)
